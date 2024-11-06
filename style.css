@@ -1,25 +1,79 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
-h1{
 
+
+header h1 {
     color: #1A1A19;
-    margin-left: 50px;
-    height: 30px;
-    width: 200px;
+    float: left;
+    margin: 10px auto auto 20px;
+
 }
 
-a{
-    color:#1A1A19;
+header h1,
+nav a {
+    margin-bottom: 15px;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #1A1A19;
     text-decoration-line: none;
+    margin: 20px;
+
+}
+
+nav a:hover {
+    color: #6F4E37;
+}
+
+hr {
+    clear: both;
+    margin: 0;
+}
+
+aside {
+    background-color: #AF8F6F;
+    width: 200px;
+    height: 650px;
+    padding-top: 10px;
+  
+    margin: 0;
+
+}
+
+aside a {
+    color: #ffffff;
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
     
 }
 
-aside{
-    background-color: #859F3D;
+aside a:hover {
+    color: #6F4E37;
+}
+
+
+section {
     width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #1A1A19;
+    
+}
+section img {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
 }
 
 /*https://colorhunt.co/palette/1a1a1931511e859f3df6fcdf
