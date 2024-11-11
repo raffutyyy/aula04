@@ -4,22 +4,60 @@ body{
 }
 
 h1{
-
     color: #1A1A19;
     margin-left: 50px;
     height: 30px;
     width: 200px;
+    margin: 10px 0 0 0 ;
+    margin-left: 20px;
 }
 
 a{
+    float: right;
     color:#1A1A19;
     text-decoration-line: none;
     
 }
 
-aside{
-    background-color: #859F3D;
-    width: 200px;
+nav a {
+    margin: 5px 20px 10px 20px ;
 }
 
-/*https://colorhunt.co/palette/1a1a1931511e859f3df6fcdf
+nav a:hover{
+    color: #3a301e;
+}
+hr{
+    clear: both;
+    margin: 0;
+}
+aside{
+    width: 100px;
+    height: auto;
+   
+}
+
+aside a{
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+aside a:hover{
+    color: #3a301e;
+}
+
+section img{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: auto;
+}
+section{
+    width: 200px;
+    height: 300px;
+    box-shadow: 5px 5px 5px gray;
+}
+
