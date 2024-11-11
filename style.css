@@ -3,7 +3,13 @@ body {
     margin: 0;
 }
 
-
+main{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+   
+}
 
 header h1 {
     color: #1A1A19;
@@ -12,8 +18,7 @@ header h1 {
 
 }
 
-header h1,
-nav a {
+header h1, nav a {
     margin-bottom: 15px;
 }
 
@@ -41,32 +46,51 @@ hr {
 aside {
     background-color: #AF8F6F;
     width: 200px;
-    height: 650px;
+    height: 2600px;
     padding-top: 10px;
-  
     margin: 0;
 
 }
 
 aside a {
-    color: #ffffff;
+    display: flex;
+    color: #c9c9c9;
     text-decoration-line: none;
     font-weight: bold;
     font-size: 20px;
-    margin: 20px;
+
+
     
 }
 
 aside a:hover {
     color: #6F4E37;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
+div h2{
+    color: #1A1A19;
+}
+div hr{
+ 
+    width: 40%; 
+    margin: 0 auto; 
+    border-top: 1px solid #1A1A19;; 
 
+    
+}
 section {
+    background-color: #ffffff;
+    display: inline-block;
     width: 200px;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #1A1A19;
+    height: 400px;
+    margin: 20px;
+    text-align: center;
+    
     
 }
 section img {
@@ -76,4 +100,18 @@ section img {
     border-radius: 5px;
 }
 
+input{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #E4E0E1;
+}
+input button:hover{
+    color: #493628;
+}
+footer{
+    display: flex;
+    background-color: #E4E0E1;
+}
 /*https://colorhunt.co/palette/1a1a1931511e859f3df6fcdf
